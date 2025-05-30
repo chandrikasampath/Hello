@@ -24,6 +24,7 @@ public class IntimationAdd {
 		IntimationSearch Intimation = new IntimationSearch(driver);
 		// Login Process using the utility-based structure
 		Intimation.login("admin", "nova@1234", "421010");
+		System.out.println("I changed");
 
 	}
 
